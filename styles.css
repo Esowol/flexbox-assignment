@@ -1,0 +1,70 @@
+body{
+    background-color: white;
+    
+}
+
+
+.flex-container {
+    display: flex;
+    background-color: hsl(0, 0%, 95%) ;
+}
+.flex-container div {
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+    padding: 7rem;
+    font-size: 15px;
+    max-width: 960px;
+    flex-wrap: wrap;
+    line-height: 20px;
+    align-items: baseline;
+    justify-content: center;
+    align-content: space-between;
+   
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%)
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.lux{
+    background-color: hsl(179, 100%, 13%);
+}
+input[type=submit]{
+    background-color: white;
+    border: none;
+    border-radius: 14px ;
+    width: 120px;
+    height: 35px;
+    padding: 5px;
+    display: block ;
+ 
+}
+h3{
+    font-family: 'Big Shoulders Display';
+    text-align: left;
+    color: hsl(0, 0%, 95%); 
+    display: flex
+}
+.text{
+    font-family: ;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.power{
+    color: hsl(184, 100%, 22%);
+}
+.fuel{
+    color:hsl(31, 77%, 52%)
+}
+.cruise{
+    color: hsl(179, 100%, 13%);
+}
+@media only screen and max-width 600px {
+    div{
+        flex-direction: column;
+        width: full;
+    }
+}
+/* media query is not working yet, paragraph font cannot be found, need to figure out how to center the container on the webpage. */
