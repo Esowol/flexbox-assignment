@@ -19,9 +19,9 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 90%;
+    height: 70%;
     width: 70%;
-    margin-bottom: 0;
+    margin-bottom: 100px;
     margin-left: 100px;
     
     
@@ -92,11 +92,21 @@ h3{
 }
 
 
-.flex-container
-@media only screen and max-width 600px {
-    div{
-        flex-direction: column;
-        width: full;
+@media screen and (max-width: 768px) {.flex-container
+    {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-content: flex-start;
+        width: 40%;
+        height: auto;
+        margin-bottom: 2rem;
+    }
+    .sedan{
+        border-radius: 12px 12px 0px 0px;
+    }
+    .lux{
+        border-radius: 0px 0px 12px 12px;
+    }
+    
     }
 }
-/* media query is not working yet, paragraph font cannot be found, need to figure out how to center the container on the webpage. */
